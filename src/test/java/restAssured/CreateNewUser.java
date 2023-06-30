@@ -18,7 +18,8 @@ public class CreateNewUser {
 
 		System.out.println(req);
 		System.out.println(req.toJSONString());
-
+		
+		//Below BDD style code represents create new user
 		given()
 			.header("Content-Type", "application/json")
 			.contentType(ContentType.JSON)
