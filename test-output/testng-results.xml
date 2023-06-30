@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3990" started-at="2023-06-30T11:10:18Z" finished-at="2023-06-30T11:10:22Z">
+  <suite name="Suite" duration-ms="7815" started-at="2023-06-30T11:36:21Z" finished-at="2023-06-30T11:36:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3990" started-at="2023-06-30T11:10:18Z" finished-at="2023-06-30T11:10:22Z">
-      <class name="restAssured.DeleteUser">
-        <test-method status="PASS" signature="test_delete()[pri:0, instance:restAssured.DeleteUser@5e5792a0]" name="test_delete" duration-ms="3955" started-at="2023-06-30T16:40:18Z" finished-at="2023-06-30T16:40:22Z">
+    <test name="Test" duration-ms="7815" started-at="2023-06-30T11:36:21Z" finished-at="2023-06-30T11:36:29Z">
+      <class name="restAssured.CreateNewUser">
+        <test-method status="PASS" signature="addUser()[pri:0, instance:restAssured.CreateNewUser@27efef64]" name="addUser" duration-ms="637" started-at="2023-06-30T17:06:27Z" finished-at="2023-06-30T17:06:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_delete -->
+        </test-method> <!-- addUser -->
+      </class> <!-- restAssured.CreateNewUser -->
+      <class name="restAssured.UpdateUser">
+        <test-method status="PASS" signature="updateUserDetails()[pri:0, instance:restAssured.UpdateUser@6f7fd0e6]" name="updateUserDetails" duration-ms="609" started-at="2023-06-30T17:06:27Z" finished-at="2023-06-30T17:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserDetails -->
+      </class> <!-- restAssured.UpdateUser -->
+      <class name="restAssured.DeleteUser">
+        <test-method status="PASS" signature="delete_user()[pri:0, instance:restAssured.DeleteUser@47c62251]" name="delete_user" duration-ms="573" started-at="2023-06-30T17:06:28Z" finished-at="2023-06-30T17:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_user -->
       </class> <!-- restAssured.DeleteUser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="restAssured.GetUserDetails">
+        <test-method status="PASS" signature="getListOfUsers()[pri:0, instance:restAssured.GetUserDetails@68c4039c]" name="getListOfUsers" duration-ms="5924" started-at="2023-06-30T17:06:21Z" finished-at="2023-06-30T17:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+      </class> <!-- restAssured.GetUserDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
